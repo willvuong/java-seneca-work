@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="Plate:"/>
+			<item value="plate:"/>
+			<item value="plate"/>
+			<item value="&#x0D;&#x0A;public class Withdraw extends Thread {&#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;StrangeBankAccount account;&#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;public Withdraw(StrangeBankAccount tempStrangeBankAccount) {&#x0D;&#x0A;&#x09;&#x09;this.account = tempStrangeBankAccount;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;@Override&#x0D;&#x0A;&#x09;public void run() {&#x0D;&#x0A;&#x09;&#x09;synchronized(account) {&#x0D;&#x0A;&#x09;&#x09;int i = 0;&#x0D;&#x0A;&#x09;&#x09;while(i &lt; 3) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;if(account.amount == 0) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;try {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;System.out.print(&quot;wait for withdraw&quot;);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;account.wait();&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;} catch (InterruptedException e) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;System.out.println(e);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;} else {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;account.withdraw(account.amount);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;System.out.print(&quot;notify for withdraw&quot;);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;System.out.println(account.getAmount());&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;account.notify();&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;}&#x0D;&#x0A;"/>
+			<item value="package shapes;"/>
+			<item value="area"/>
+			<item value="student"/>
+			<item value="textarea"/>
+			<item value="bin"/>
+			<item value="For input"/>
+			<item value="null"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="897" key="DIALOG_X_ORIGIN"/>
+		<item value="98" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
